@@ -18,8 +18,8 @@ public interface PersonService {
 
     /**
      * 新增人员信息
-     * @param person
+     * @param person2
      * @throws Exception
      */
-    void insertPerson(Person person) throws Exception;
+    void insertPerson(Person person2) throws Exception;
 }
