@@ -9,5 +9,17 @@ import com.sf.demo.Person;
  */
 public interface PersonService {
 
+    /**
+     * 获取人员信息
+     * @return
+     * @throws Exception
+     */
     Person getPerson() throws Exception;
+
+    /**
+     * 新增人员信息
+     * @param person
+     * @throws Exception
+     */
+    void insertPerson(Person person) throws Exception;
 }
